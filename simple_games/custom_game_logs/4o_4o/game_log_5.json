@@ -1,0 +1,7770 @@
+{
+  "experiment_metadata": {
+    "duration_seconds": 90.68857884407043,
+    "num_rounds": 50,
+    "players": [
+      "Alice gpt-4o",
+      "Bob gpt-4o"
+    ],
+    "sequential": false,
+    "start_time": 1760675840.552057,
+    "end_time": 1760675931.2406359
+  },
+  "game_state": {
+    "current_round": 50,
+    "status": "finished",
+    "num_events": 352
+  },
+  "player_statistics": {
+    "Alice gpt-4o": {
+      "total_reward": 51.0,
+      "average_reward": 1.02,
+      "num_rounds": 50,
+      "last_policy": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "Bob gpt-4o": {
+      "total_reward": 49.0,
+      "average_reward": 0.98,
+      "num_rounds": 50,
+      "last_policy": [
+        1,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "round_history": [
+    {
+      "round": 1,
+      "actions": {
+        "Alice gpt-4o": 3,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 2,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 2
+      },
+      "rewards": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 3,
+      "actions": {
+        "Alice gpt-4o": 0,
+        "Bob gpt-4o": 3
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "Bob gpt-4o": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 4,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 5,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 6,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 7,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 8,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 9,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 10,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 11,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 12,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 13,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 14,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 15,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 16,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 17,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 18,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 19,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 20,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 21,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 22,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 23,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 24,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 25,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 26,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 27,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 28,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 29,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 30,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 31,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 32,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 33,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 34,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 35,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 36,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 37,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 38,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 39,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 40,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 41,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 42,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 43,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 44,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 45,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 46,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 47,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 48,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 49,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 50,
+      "actions": {
+        "Alice gpt-4o": 2,
+        "Bob gpt-4o": 0
+      },
+      "rewards": {
+        "Alice gpt-4o": 1,
+        "Bob gpt-4o": 1
+      },
+      "policies": {
+        "Alice gpt-4o": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "Bob gpt-4o": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    }
+  ],
+  "event_log": [
+    {
+      "round": 0,
+      "event": "experiment_start",
+      "details": {
+        "timestamp": "2025-10-16T21:37:20.552057",
+        "num_rounds": 50,
+        "players": [
+          "Alice gpt-4o",
+          "Bob gpt-4o"
+        ],
+        "sequential": false
+      },
+      "status": "initialized"
+    },
+    {
+      "round": 1,
+      "event": "round_start",
+      "details": {
+        "round": 1
+      },
+      "status": "running"
+    },
+    {
+      "round": 1,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 1,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 1,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "action": 3
+      },
+      "status": "running"
+    },
+    {
+      "round": 1,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 1,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 3,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 1,
+      "event": "round_end",
+      "details": {
+        "round": 1,
+        "actions": {
+          "Alice gpt-4o": 3,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 2,
+      "event": "round_start",
+      "details": {
+        "round": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 2,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 2,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 2,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 2,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 2,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 2
+        },
+        "rewards": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 2,
+      "event": "round_end",
+      "details": {
+        "round": 2,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 2
+        },
+        "rewards": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 3,
+      "event": "round_start",
+      "details": {
+        "round": 3
+      },
+      "status": "running"
+    },
+    {
+      "round": 3,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 3,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 3,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 3,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "action": 3
+      },
+      "status": "running"
+    },
+    {
+      "round": 3,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 0,
+          "Bob gpt-4o": 3
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 3,
+      "event": "round_end",
+      "details": {
+        "round": 3,
+        "actions": {
+          "Alice gpt-4o": 0,
+          "Bob gpt-4o": 3
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "Bob gpt-4o": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 4,
+      "event": "round_start",
+      "details": {
+        "round": 4
+      },
+      "status": "running"
+    },
+    {
+      "round": 4,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 4,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 4,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 4,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 4,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 4,
+      "event": "round_end",
+      "details": {
+        "round": 4,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 5,
+      "event": "round_start",
+      "details": {
+        "round": 5
+      },
+      "status": "running"
+    },
+    {
+      "round": 5,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 5,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 5,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 5,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 5,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 5,
+      "event": "round_end",
+      "details": {
+        "round": 5,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 6,
+      "event": "round_start",
+      "details": {
+        "round": 6
+      },
+      "status": "running"
+    },
+    {
+      "round": 6,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 6,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 6,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 6,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 6,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 6,
+      "event": "round_end",
+      "details": {
+        "round": 6,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 7,
+      "event": "round_start",
+      "details": {
+        "round": 7
+      },
+      "status": "running"
+    },
+    {
+      "round": 7,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 7,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 7,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 7,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 7,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 7,
+      "event": "round_end",
+      "details": {
+        "round": 7,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 8,
+      "event": "round_start",
+      "details": {
+        "round": 8
+      },
+      "status": "running"
+    },
+    {
+      "round": 8,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 8,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 8,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 8,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 8,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 8,
+      "event": "round_end",
+      "details": {
+        "round": 8,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 9,
+      "event": "round_start",
+      "details": {
+        "round": 9
+      },
+      "status": "running"
+    },
+    {
+      "round": 9,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 9,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 9,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 9,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 9,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 9,
+      "event": "round_end",
+      "details": {
+        "round": 9,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 10,
+      "event": "round_start",
+      "details": {
+        "round": 10
+      },
+      "status": "running"
+    },
+    {
+      "round": 10,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 10,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 10,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 10,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 10,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 10,
+      "event": "round_end",
+      "details": {
+        "round": 10,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 11,
+      "event": "round_start",
+      "details": {
+        "round": 11
+      },
+      "status": "running"
+    },
+    {
+      "round": 11,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 11,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 11,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 11,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 11,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 11,
+      "event": "round_end",
+      "details": {
+        "round": 11,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 12,
+      "event": "round_start",
+      "details": {
+        "round": 12
+      },
+      "status": "running"
+    },
+    {
+      "round": 12,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 12,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 12,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 12,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 12,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 12,
+      "event": "round_end",
+      "details": {
+        "round": 12,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 13,
+      "event": "round_start",
+      "details": {
+        "round": 13
+      },
+      "status": "running"
+    },
+    {
+      "round": 13,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 13,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 13,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 13,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 13,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 13,
+      "event": "round_end",
+      "details": {
+        "round": 13,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 14,
+      "event": "round_start",
+      "details": {
+        "round": 14
+      },
+      "status": "running"
+    },
+    {
+      "round": 14,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 14,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 14,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 14,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 14,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 14,
+      "event": "round_end",
+      "details": {
+        "round": 14,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 15,
+      "event": "round_start",
+      "details": {
+        "round": 15
+      },
+      "status": "running"
+    },
+    {
+      "round": 15,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 15,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 15,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 15,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 15,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 15,
+      "event": "round_end",
+      "details": {
+        "round": 15,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 16,
+      "event": "round_start",
+      "details": {
+        "round": 16
+      },
+      "status": "running"
+    },
+    {
+      "round": 16,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 16,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 16,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 16,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 16,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 16,
+      "event": "round_end",
+      "details": {
+        "round": 16,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 17,
+      "event": "round_start",
+      "details": {
+        "round": 17
+      },
+      "status": "running"
+    },
+    {
+      "round": 17,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 17,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 17,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 17,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 17,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 17,
+      "event": "round_end",
+      "details": {
+        "round": 17,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 18,
+      "event": "round_start",
+      "details": {
+        "round": 18
+      },
+      "status": "running"
+    },
+    {
+      "round": 18,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 18,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 18,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 18,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 18,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 18,
+      "event": "round_end",
+      "details": {
+        "round": 18,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 19,
+      "event": "round_start",
+      "details": {
+        "round": 19
+      },
+      "status": "running"
+    },
+    {
+      "round": 19,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 19,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 19,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 19,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 19,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 19,
+      "event": "round_end",
+      "details": {
+        "round": 19,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 20,
+      "event": "round_start",
+      "details": {
+        "round": 20
+      },
+      "status": "running"
+    },
+    {
+      "round": 20,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 20,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 20,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 20,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 20,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 20,
+      "event": "round_end",
+      "details": {
+        "round": 20,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 21,
+      "event": "round_start",
+      "details": {
+        "round": 21
+      },
+      "status": "running"
+    },
+    {
+      "round": 21,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 21,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 21,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 21,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 21,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 21,
+      "event": "round_end",
+      "details": {
+        "round": 21,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 22,
+      "event": "round_start",
+      "details": {
+        "round": 22
+      },
+      "status": "running"
+    },
+    {
+      "round": 22,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 22,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 22,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 22,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 22,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 22,
+      "event": "round_end",
+      "details": {
+        "round": 22,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 23,
+      "event": "round_start",
+      "details": {
+        "round": 23
+      },
+      "status": "running"
+    },
+    {
+      "round": 23,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 23,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 23,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 23,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 23,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 23,
+      "event": "round_end",
+      "details": {
+        "round": 23,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 24,
+      "event": "round_start",
+      "details": {
+        "round": 24
+      },
+      "status": "running"
+    },
+    {
+      "round": 24,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 24,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 24,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 24,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 24,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 24,
+      "event": "round_end",
+      "details": {
+        "round": 24,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 25,
+      "event": "round_start",
+      "details": {
+        "round": 25
+      },
+      "status": "running"
+    },
+    {
+      "round": 25,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 25,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 25,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 25,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 25,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 25,
+      "event": "round_end",
+      "details": {
+        "round": 25,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 26,
+      "event": "round_start",
+      "details": {
+        "round": 26
+      },
+      "status": "running"
+    },
+    {
+      "round": 26,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 26,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 26,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 26,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 26,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 26,
+      "event": "round_end",
+      "details": {
+        "round": 26,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 27,
+      "event": "round_start",
+      "details": {
+        "round": 27
+      },
+      "status": "running"
+    },
+    {
+      "round": 27,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 27,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 27,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 27,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 27,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 27,
+      "event": "round_end",
+      "details": {
+        "round": 27,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 28,
+      "event": "round_start",
+      "details": {
+        "round": 28
+      },
+      "status": "running"
+    },
+    {
+      "round": 28,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 28,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 28,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 28,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 28,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 28,
+      "event": "round_end",
+      "details": {
+        "round": 28,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 29,
+      "event": "round_start",
+      "details": {
+        "round": 29
+      },
+      "status": "running"
+    },
+    {
+      "round": 29,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 29,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 29,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 29,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 29,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 29,
+      "event": "round_end",
+      "details": {
+        "round": 29,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 30,
+      "event": "round_start",
+      "details": {
+        "round": 30
+      },
+      "status": "running"
+    },
+    {
+      "round": 30,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 30,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 30,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 30,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 30,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 30,
+      "event": "round_end",
+      "details": {
+        "round": 30,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 31,
+      "event": "round_start",
+      "details": {
+        "round": 31
+      },
+      "status": "running"
+    },
+    {
+      "round": 31,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 31,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 31,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 31,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 31,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 31,
+      "event": "round_end",
+      "details": {
+        "round": 31,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 32,
+      "event": "round_start",
+      "details": {
+        "round": 32
+      },
+      "status": "running"
+    },
+    {
+      "round": 32,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 32,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 32,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 32,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 32,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 32,
+      "event": "round_end",
+      "details": {
+        "round": 32,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 33,
+      "event": "round_start",
+      "details": {
+        "round": 33
+      },
+      "status": "running"
+    },
+    {
+      "round": 33,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 33,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 33,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 33,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 33,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 33,
+      "event": "round_end",
+      "details": {
+        "round": 33,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 34,
+      "event": "round_start",
+      "details": {
+        "round": 34
+      },
+      "status": "running"
+    },
+    {
+      "round": 34,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 34,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 34,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 34,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 34,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 34,
+      "event": "round_end",
+      "details": {
+        "round": 34,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 35,
+      "event": "round_start",
+      "details": {
+        "round": 35
+      },
+      "status": "running"
+    },
+    {
+      "round": 35,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 35,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 35,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 35,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 35,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 35,
+      "event": "round_end",
+      "details": {
+        "round": 35,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 36,
+      "event": "round_start",
+      "details": {
+        "round": 36
+      },
+      "status": "running"
+    },
+    {
+      "round": 36,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 36,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 36,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 36,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 36,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 36,
+      "event": "round_end",
+      "details": {
+        "round": 36,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 37,
+      "event": "round_start",
+      "details": {
+        "round": 37
+      },
+      "status": "running"
+    },
+    {
+      "round": 37,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 37,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 37,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 37,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 37,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 37,
+      "event": "round_end",
+      "details": {
+        "round": 37,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 38,
+      "event": "round_start",
+      "details": {
+        "round": 38
+      },
+      "status": "running"
+    },
+    {
+      "round": 38,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 38,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 38,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 38,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 38,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 38,
+      "event": "round_end",
+      "details": {
+        "round": 38,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 39,
+      "event": "round_start",
+      "details": {
+        "round": 39
+      },
+      "status": "running"
+    },
+    {
+      "round": 39,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 39,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 39,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 39,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 39,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 39,
+      "event": "round_end",
+      "details": {
+        "round": 39,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 40,
+      "event": "round_start",
+      "details": {
+        "round": 40
+      },
+      "status": "running"
+    },
+    {
+      "round": 40,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 40,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 40,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 40,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 40,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 40,
+      "event": "round_end",
+      "details": {
+        "round": 40,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 41,
+      "event": "round_start",
+      "details": {
+        "round": 41
+      },
+      "status": "running"
+    },
+    {
+      "round": 41,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 41,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 41,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 41,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 41,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 41,
+      "event": "round_end",
+      "details": {
+        "round": 41,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 42,
+      "event": "round_start",
+      "details": {
+        "round": 42
+      },
+      "status": "running"
+    },
+    {
+      "round": 42,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 42,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 42,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 42,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 42,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 42,
+      "event": "round_end",
+      "details": {
+        "round": 42,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 43,
+      "event": "round_start",
+      "details": {
+        "round": 43
+      },
+      "status": "running"
+    },
+    {
+      "round": 43,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 43,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 43,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 43,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 43,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 43,
+      "event": "round_end",
+      "details": {
+        "round": 43,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 44,
+      "event": "round_start",
+      "details": {
+        "round": 44
+      },
+      "status": "running"
+    },
+    {
+      "round": 44,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 44,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 44,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 44,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 44,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 44,
+      "event": "round_end",
+      "details": {
+        "round": 44,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 45,
+      "event": "round_start",
+      "details": {
+        "round": 45
+      },
+      "status": "running"
+    },
+    {
+      "round": 45,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 45,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 45,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 45,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 45,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 45,
+      "event": "round_end",
+      "details": {
+        "round": 45,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 46,
+      "event": "round_start",
+      "details": {
+        "round": 46
+      },
+      "status": "running"
+    },
+    {
+      "round": 46,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 46,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 46,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 46,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 46,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 46,
+      "event": "round_end",
+      "details": {
+        "round": 46,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 47,
+      "event": "round_start",
+      "details": {
+        "round": 47
+      },
+      "status": "running"
+    },
+    {
+      "round": 47,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 47,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 47,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 47,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 47,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 47,
+      "event": "round_end",
+      "details": {
+        "round": 47,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 48,
+      "event": "round_start",
+      "details": {
+        "round": 48
+      },
+      "status": "running"
+    },
+    {
+      "round": 48,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 48,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 48,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 48,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 48,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 48,
+      "event": "round_end",
+      "details": {
+        "round": 48,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 49,
+      "event": "round_start",
+      "details": {
+        "round": 49
+      },
+      "status": "running"
+    },
+    {
+      "round": 49,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 49,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 49,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 49,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 49,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 49,
+      "event": "round_end",
+      "details": {
+        "round": 49,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 50,
+      "event": "round_start",
+      "details": {
+        "round": 50
+      },
+      "status": "running"
+    },
+    {
+      "round": 50,
+      "event": "policy_selected",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 50,
+      "event": "policy_selected",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chain_of_thought": "",
+        "sequential": false
+      },
+      "status": "running",
+      "chain_of_thought": ""
+    },
+    {
+      "round": 50,
+      "event": "action_sampled",
+      "details": {
+        "player": "Alice gpt-4o",
+        "policy": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "action": 2
+      },
+      "status": "running"
+    },
+    {
+      "round": 50,
+      "event": "action_sampled",
+      "details": {
+        "player": "Bob gpt-4o",
+        "policy": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0
+      },
+      "status": "running"
+    },
+    {
+      "round": 50,
+      "event": "payoffs_computed",
+      "details": {
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        }
+      },
+      "status": "running"
+    },
+    {
+      "round": 50,
+      "event": "round_end",
+      "details": {
+        "round": 50,
+        "actions": {
+          "Alice gpt-4o": 2,
+          "Bob gpt-4o": 0
+        },
+        "rewards": {
+          "Alice gpt-4o": 1,
+          "Bob gpt-4o": 1
+        },
+        "policies": {
+          "Alice gpt-4o": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "Bob gpt-4o": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "chain_of_thought": {
+          "Alice gpt-4o": "",
+          "Bob gpt-4o": ""
+        }
+      },
+      "status": "running",
+      "chain_of_thought": {
+        "Alice gpt-4o": "",
+        "Bob gpt-4o": ""
+      }
+    },
+    {
+      "round": 50,
+      "event": "experiment_complete",
+      "details": {
+        "timestamp": "2025-10-16T21:38:51.240637",
+        "duration_seconds": 90.68857884407043,
+        "total_rounds": 50
+      },
+      "status": "finished"
+    }
+  ]
+}

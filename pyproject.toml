@@ -14,6 +14,14 @@ dependencies = [
     "tiktoken>=0.11.0",
     "python-dotenv>=1.0.0",
     "autogen>=0.9.9",
+    "ipykernel>=6.30.1",
+    "matplotlib>=3.10.7",
+    "numpy>=2.2.6",
+    "pandas>=2.3.3",
+    "langchain>=0.3.27",
+    "langchain-openai>=0.2.0",
+    "langchain-core>=0.3.0",
+    "langgraph>=0.2.0",
 ]
 
 [build-system]
